@@ -1,7 +1,9 @@
 # Lista 1 de Exercícios de SO
 
 **Autor:** Luiz Felipe Matos
+
 **Curso:** Análise e Desenvolvimento de Sistemas – Fatec Zona Leste
+
 **Disciplina:** Sistemas Operacionais – Prof. Leandro Colevati
 
 ## Introdução
