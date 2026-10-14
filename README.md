@@ -15,7 +15,7 @@ Este repositório reúne os exercícios da lista "Python para SO – Arquivos e 
 - `ex21.py`: Exercício 2 (média de quatro notas)
 - `ex34.py`: Exercício 1 (tabuada)
 
-## Exercício 21 (base do Exercício 2)
+## Exercício 21 (base do Exercício 1)
 
 Receba 4 notas bimestrais de um aluno. Calcule e mostre a média aritmética.
 
@@ -25,7 +25,7 @@ Mostre uma mensagem de acordo com a média:
 - Média maior ou igual a 3,0 e menor que 6,0 → EXAME
 - Média menor que 3,0 → RETIDO
 
-## Exercício 2
+## Exercício 1
 
 Baseado no Ex. 21, fazer:
 
@@ -42,11 +42,11 @@ Baseado no Ex. 21, fazer:
 - **f.** O procedimento `cadastro`, recebe o nome do aluno, as 4 notas e a média como parâmetros, declara `linha`, como `str` e usa `arq` e `dir` como globais que devem ter `dir = '/tmp/exercicios'` e `arq = 'ex21.txt'`. A variável `linha` deve receber uma operação de concatenar de nome, todas as notas e a média, sempre separados por `';'` e com quebra de linha `'\n'` ao final. As variáveis numéricas, para serem concatenadas, devem passar por uma operação de cast (`str(n1)`). Por fim, deve chamar o procedimento `escreveArq(caminho, arquivo, linha_arq)`.
 - **g.** A função `escreveArq` recebe, como parâmetros, o nome do diretório, o nome do arquivo e a linha concatenada, para ser gravada no arquivo. Deve declarar `file`, `tipo` e `enc` como `str` vazios. Baseado no material de aula, deve-se verificar se o diretório existe e é diretório e, em sendo verdadeiro, verificar se o arquivo existe (Para definir se o tipo da operação será `w` (write) ou `a` (append)) e gravar no arquivo o conteúdo da variável `linha_cad`.
 
-## Exercício 34 (base do Exercício 1)
+## Exercício 34 (base do Exercício 2)
 
 Receba um número. Calcule e mostre os resultados da tabuada desse número.
 
-## Exercício 1
+## Exercício 2
 
 Baseado no Ex. 34, fazer:
 
