@@ -57,6 +57,12 @@ def entrada():
     nota4 = float(input('Digite a quarta nota: '))
     valor_media = med(nota1, nota2, nota3, nota4)
     print('Media:', valor_media)
+    if valor_media >= 6.0:
+        print('APROVADO')
+    elif valor_media >= 3.0:
+        print('EXAME')
+    else:
+        print('RETIDO')
     cadastro(nome, nota1, nota2, nota3, nota4, valor_media)
 
 def main():
